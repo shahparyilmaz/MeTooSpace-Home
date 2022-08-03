@@ -1,0 +1,90 @@
+
+.navbar-body{
+    width: 100%;
+    padding: 1vmin 4vmin;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid rgb(209, 209, 209);
+}
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-left div{
+    margin: 0 2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-logo{
+    font-size: 4vmin;
+    font-weight: 600;
+    color: rgb(99, 53, 201);
+}
+
+.navbar-location{
+    font-size: 2.5vmin;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-right div{
+    margin: 0 1vmin;
+}
+
+.navbar-tabs{
+    background-color: white;
+    color: rgb(44, 44, 44);
+    border: 0.1px solid rgb(190, 190, 190);
+    border-radius: 2vmin;
+    padding: 0.8vmin 1.5vmin;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2vmin;
+    align-items: center;
+    font-size: 2vmin;
+}
+
+.navbar-createpost{
+    background-color: rgb(122, 69, 235);
+    color: white;
+    border-radius: 2vmin;
+    padding: 0.8vmin 1.5vmin;
+    border: none;
+}
+
+.navbar-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(86, 86, 86);
+    font-weight: 400;
+    font-size: 3vmin;
+    padding: 0.8vmin 1vmin;
+}
+
+.navbar-profile{
+    width: 7vmin;
+    height: 7vmin;
+    margin: 0 1vmin;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.navbar-profile img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
