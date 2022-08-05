@@ -29,8 +29,9 @@
 .navbar-location{
     font-size: 2.5vmin;
     font-weight: 600;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2vmin;
 }
 
 .navbar-right{
@@ -54,14 +55,19 @@
     column-gap: 2vmin;
     align-items: center;
     font-size: 2vmin;
+    cursor: pointer;
 }
 
 .navbar-createpost{
     background-color: rgb(122, 69, 235);
     color: white;
     border-radius: 2vmin;
-    padding: 0.8vmin 1.5vmin;
+    padding: 0.8vmin 2vmin;
     border: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vmin;
+    cursor: pointer;
 }
 
 .navbar-options{
@@ -72,6 +78,7 @@
     font-weight: 400;
     font-size: 3vmin;
     padding: 0.8vmin 1vmin;
+    cursor: pointer;
 }
 
 .navbar-profile{
@@ -80,6 +87,7 @@
     margin: 0 1vmin;
     border-radius: 50%;
     background-color: aqua;
+    cursor: pointer;
 }
 
 .navbar-profile img{

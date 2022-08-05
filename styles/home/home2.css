@@ -45,38 +45,38 @@
 }
 
 
-.home-navbar-contianer{
-width: 100%;
-/* padding: 1vh 1vw; */
+.home-navbar-contianer {
+    width: 100%;
+    /* padding: 1vh 1vw; */
 }
 
-.home-navbar{
-width: 100%;
-max-height: 10vmin;
-display: flex;
-justify-content: space-between;
-/* background-color: rgba(0, 0, 0, 0.196); */
-align-items: center;
-padding: 3vw 5vw 2vw 5vw;
+.home-navbar {
+    width: 100%;
+    max-height: 10vmin;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(0, 0, 0, 0.196); */
+    align-items: center;
+    padding: 3vw 5vw 2vw 5vw;
 }
 
-.home-navbar-left{
-font-size: 2.8vmin;
-font-weight: 700;
+.home-navbar-left {
+    font-size: 2.8vmin;
+    font-weight: 700;
 }
 
-.home-navbar-right{
+.home-navbar-right {
     font-size: 2.2vmin;
     font-weight: 500;
-display: flex;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.home-navbar-right-tabs{
+.home-navbar-right-tabs {
     padding: 0vw 2vw;
 }
 
-.home-banner-middle{
+.home-banner-middle {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -84,19 +84,19 @@ justify-content: space-evenly;
     padding: 5vmin 8vw;
 }
 
-.home-banner-middle p{
+.home-banner-middle p {
     padding: 0;
     margin: 0;
 }
 
-.banner-middle-title{
+.banner-middle-title {
     width: 25%;
     font-size: 6vmin;
     font-weight: 750;
     padding-bottom: 3vmin;
 }
 
-.banner-middle-description{
+.banner-middle-description {
     width: 25%;
     font-size: 2vmin;
     padding-top: 2vmin;
@@ -104,66 +104,67 @@ justify-content: space-evenly;
 }
 
 
-.home-banner-bottom{
+.home-banner-bottom {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.home-banner-bottom-inner{
+.home-banner-bottom-inner {
     display: flex;
     justify-content: space-evenly;
     width: fit-content;
     padding: 3vmin 0;
 }
 
-.home-banner-bottom-tabs{
+.home-banner-bottom-tabs {
     padding: 0vw 1.5vw;
     font-size: 3vmin;
     font-weight: 600;
 }
 
-.home-body-container{
+.home-body-container {
     padding: 5vmin 10vmin;
     min-height: 20vw;
     display: flex;
     flex-direction: column;
 }
 
-.home-body-intro{
+.home-body-intro {
     width: 100%;
     display: grid;
     grid-template-columns: 66% 32%;
     column-gap: 2%;
 }
 
-.home-body-intro-left{
+.home-body-intro-left {
     display: flex;
     flex-direction: column;
 }
 
-.intro-left-title{
+.intro-left-title {
     font-size: 4vmin;
     /* margin-left: 6vmin; */
     font-weight: 700;
 }
 
-.intro-left-title-1{
+.intro-left-title-1 {
     padding: 1vmin 0 0.5vmin 0;
     color: black;
 }
-.intro-left-title-2{
+
+.intro-left-title-2 {
     padding: 0.5vmin 0 1vmin 0;
     color: rgb(99, 53, 201);
 }
 
-.intro-left-para{
+.intro-left-para {
     padding: 1vw 0;
     /* margin-left: 6vmin; */
     font-size: 2.5vmin;
 }
 
-.home-body-intro-right{
+.home-body-intro-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,13 +179,13 @@ justify-content: space-evenly;
     justify-content: left;
 } */
 
-.intro-right-image{
+.intro-right-image {
     height: 25vmin;
     width: 40vmin;
-    box-shadow:  rgb(255, 255, 255) 10px -10px 0px -4px, rgb(99, 53, 201) 10px -10px;
+    box-shadow: rgb(255, 255, 255) 10px -10px 0px -4px, rgb(99, 53, 201) 10px -10px;
 }
 
-.intro-right-image img{
+.intro-right-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -192,7 +193,7 @@ justify-content: space-evenly;
     border-radius: 2vmin;
 }
 
-.home-posts-title{
+.home-posts-title {
     width: 20%;
     word-wrap: break-word;
 
@@ -206,12 +207,12 @@ justify-content: space-evenly;
     color: rgb(99, 53, 201);
 }
 
-.home-posts-title-2{
+.home-posts-title-2 {
     margin-left: 1vmin;
     color: black;
 }
 
-.home-posts-body{
+.home-posts-body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -235,15 +236,15 @@ justify-content: space-evenly;
     margin: 20px;
 } */
 
-.home-posts-end-btn{
+.home-posts-end-btn {
     width: 100%;
     padding: 5vmin;
     display: flex;
     justify-content: center;
 }
 
-.home-posts-end-btn button{
-    background-color:rgb(99, 53, 201);
+.home-posts-end-btn button {
+    background-color: rgb(99, 53, 201);
     color: white;
     font-size: 2.5vmin;
     font-weight: 500;
@@ -278,7 +279,7 @@ justify-content: space-evenly;
     color: black;
 }
 
-.home-app-container{
+.home-app-container {
     width: 100%;
     min-height: 30vmin;
     background-color: rgb(99, 53, 201);
@@ -289,7 +290,7 @@ justify-content: space-evenly;
     padding: 1vmin 0;
 }
 
-.home-app-left{
+.home-app-left {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
@@ -298,26 +299,26 @@ justify-content: space-evenly;
     padding: 1vmin 0vmin 1vmin 7vmin;
 }
 
-.home-app-left div{
+.home-app-left div {
     padding: 1vmin 0;
 }
 
-.app-left-title{
+.app-left-title {
     font-size: 5vmin;
     font-weight: 700;
 }
 
-.app-left-message{
+.app-left-message {
     font-size: 2vmin;
 }
 
-.app-left-buttons{
+.app-left-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.app-left-buttons button{
+.app-left-buttons button {
     width: 49%;
     height: 5vmin;
     background-color: rgba(228, 228, 228, 0.7);
@@ -331,7 +332,7 @@ justify-content: space-evenly;
     font-weight: 600;
 }
 
-.home-app-right{
+.home-app-right {
     padding: 1vmin 5vmin 1vmin 0;
     color: white;
     font-size: 20vmin;
@@ -340,7 +341,7 @@ justify-content: space-evenly;
     align-items: center;
 }
 
-.home-section-5-container{
+.home-section-5-container {
     margin-top: 5vmin;
     width: 100%;
     min-height: 20vmin;
@@ -351,40 +352,40 @@ justify-content: space-evenly;
     column-gap: 10vmin;
 }
 
-.section-5-left{
+.section-5-left {
     display: flex;
     justify-content: space-between;
     /* background-color: crimson; */
 }
 
-.section-5-left-half{
+.section-5-left-half {
     width: 45%;
     display: flex;
     flex-direction: column;
 }
 
-.section-5-left-half div{
+.section-5-left-half div {
     width: 100%;
     padding: 0.6vmin 1vmin;
 }
 
-.section-5-left-line{
+.section-5-left-line {
     background-color: rgb(99, 53, 201);
     width: 0.5vmin;
 }
 
-.section-5-title{
+.section-5-title {
     text-align: center;
     font-size: 5vmin;
     font-weight: 700;
 }
 
-.section-5-para{
+.section-5-para {
     /* text-align: justify; */
     font-size: 2.5vmin;
 }
 
-.purple-text{
+.purple-text {
     color: rgb(99, 53, 201);
 }
 
@@ -392,16 +393,16 @@ justify-content: space-evenly;
     /* background-color: rgb(225, 236, 255); */
 }
 
-.section-5-right-header{
+.section-5-right-header {
     width: 100%;
     padding: 2vmin 4vmin;
 }
 
-.section-5-right-header div{
+.section-5-right-header div {
     text-align: end;
 }
 
-.section-5-right-para{
+.section-5-right-para {
     font-size: 2.5vmin;
     text-align: end;
     padding: 0.6vmin 1vmin;
@@ -418,7 +419,7 @@ justify-content: space-evenly;
     column-gap: 2%;
 }
 
-.home-section-6-left{
+.home-section-6-left {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -428,12 +429,12 @@ justify-content: space-evenly;
     padding: 1vmin 0;
 }
 
-.section-6-left-description{
+.section-6-left-description {
     width: 40%;
     font-size: 2.5vmin;
 }
 
-.section-6-left-button{
+.section-6-left-button {
     background-color: rgb(99, 53, 201);
     color: white;
     border-radius: 2vmin;
@@ -443,7 +444,7 @@ justify-content: space-evenly;
     padding: 1vmin 3vmin;
 }
 
-.home-section-6-right{
+.home-section-6-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -463,7 +464,7 @@ justify-content: space-evenly;
     border-radius: 2vmin;
 }
 
-.home-newsletter-container{
+.home-newsletter-container {
     margin-top: 5vmin;
     background-color: rgb(190, 161, 253);
     display: flex;
@@ -471,12 +472,12 @@ justify-content: space-evenly;
     padding: 4vmin 5vmin;
 }
 
-.home-newsletter-left{
+.home-newsletter-left {
     width: 10%;
     margin-right: 4vmin;
 }
 
-.home-newsletter-right{
+.home-newsletter-right {
     width: 60%;
     margin-left: 4vmin;
     display: flex;
@@ -484,7 +485,7 @@ justify-content: space-evenly;
     justify-content: center;
 }
 
-.newsletter-search-field{
+.newsletter-search-field {
     width: 90%;
     height: 100%;
     border: none;
@@ -493,7 +494,7 @@ justify-content: space-evenly;
     color: rgb(190, 161, 253);
 }
 
-.newsletter-search-btn{
+.newsletter-search-btn {
     background-color: rgb(99, 53, 201);
     color: white;
     border-radius: 50%;
@@ -506,18 +507,18 @@ justify-content: space-evenly;
     cursor: pointer;
 }
 
-.newsletter-left-title{
+.newsletter-left-title {
     font-size: 3vmin;
     font-weight: 600;
 }
 
-.newsletter-left-description{
+.newsletter-left-description {
     font-size: 2vmin;
     font-weight: 500;
     color: rgb(67, 67, 67);
 }
 
-.home-section-8-container{
+.home-section-8-container {
     margin-top: 5vmin;
     padding: 3vmin 0;
     display: grid;
@@ -525,17 +526,17 @@ justify-content: space-evenly;
     column-gap: 15vmin;
 }
 
-.section-8-left div{
+.section-8-left div {
     padding-bottom: 3vmin;
 }
 
-.section-8-left-title{
+.section-8-left-title {
     font-size: 5vmin;
     color: rgb(99, 53, 201);
     font-weight: 700;
 }
 
-.section-8-left-description{
+.section-8-left-description {
     font-size: 2.2vmin;
 }
 
@@ -559,33 +560,33 @@ justify-content: space-evenly;
     font-weight: 600;
 }
 
-.section-8-left-buttons button span{
+.section-8-left-buttons button span {
     padding-left: 1vmin;
 }
 
-.section-8-right{
+.section-8-right {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2vmin;
 }
 
-.section-8-right-part-title{
+.section-8-right-part-title {
     font-size: 2.5vmin;
     font-weight: 600;
 }
 
-.section-8-right-part-list{
+.section-8-right-part-list {
     font-size: 2vmin;
     margin-top: 3vmin;
 }
 
-.section-8-right-part-list ul{
+.section-8-right-part-list ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.section-8-right-part-list li{
+.section-8-right-part-list li {
     margin: 0;
     padding: 0.5vmin 0;
 }

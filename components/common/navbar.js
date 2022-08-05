@@ -1,16 +1,22 @@
 import {Fragment} from "react"
-import {BsCalendarMinus,BsPerson,BsChat,BsBell} from "react-icons/bs"
+import {BsCalendarMinus,BsPerson,BsChat,BsBell,BsPlusCircle,BsChevronDown} from "react-icons/bs"
 import {RiBuilding2Line} from "react-icons/ri"
 import {BiWallet} from "react-icons/bi"
 import {FaRegComment} from "react-icons/fa"
+import {AiOutlinePlusCircle} from "react-icons/ai"
+import {TbCurrentLocation} from "react-icons/tb"
 
 function NavBar(){
     return (
-        <Fragment>
+        <div>
             <div className="navbar-body">
                 <div className="navbar-left">
                     <div className="navbar-logo">totel</div>
-                    <div className="navbar-location">Miami,Florida</div>
+                    <div className="navbar-location">
+                        <TbCurrentLocation/>
+                        <span>Miami,Florida</span>
+                        <BsChevronDown/>
+                    </div>
                 </div>
                 <div className="navbar-right">
                     <div>
@@ -38,7 +44,10 @@ function NavBar(){
                         </button>
                     </div>
                     <div>
-                        <button className="navbar-createpost">Create Post</button>
+                        <button className="navbar-createpost">
+                            <BsPlusCircle/>
+                            <span>Post</span>
+                        </button>
                     </div>
                     <div className="navbar-options">
                         <BsChat/>
@@ -51,7 +60,7 @@ function NavBar(){
                     </div>
                 </div>
             </div>
-        </Fragment>
+        </div>
     )
 }
 

@@ -162,7 +162,7 @@ function CreatePost(){
 
     return (
         <Fragment>
-            <NavBar></NavBar>
+            <NavBar/>
 
             <div id="dummyElement"></div>
 

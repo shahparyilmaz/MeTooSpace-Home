@@ -1,0 +1,225 @@
+.home-container{
+    width: 100%;
+    padding-bottom: 10vmin;
+}
+
+.home-body{
+    width: 100%;
+    padding: 5vmin 5vw;
+    /* background-color: antiquewhite; */
+}
+
+.home-section-body{
+    width: 100%;
+    padding: 2vmin 0;
+    /* background-color: crimson; */
+}
+
+.section-heading{
+    display: flex;
+    flex-direction: row;
+    padding: 2vmin 0;
+    /* background-color: yellow; */
+}
+
+.section-heading-title{
+    font-size: 3vmin;
+    /* background-color: green; */
+    display: flex;
+    align-items: flex-end;
+    font-weight: 500;
+}
+
+.section-heading-more{
+    font-size: 1.5vmin;
+    color: rgb(95, 95, 95);
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-end;
+    margin-left: 3vmin;
+    margin-bottom: 0.5vmin;
+}
+
+.section-content{
+    padding: 2vmin 0;
+    /* background-color: crimson; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-banner{
+    width: 100%;
+    background-color: rgba(214, 222, 227, 0.5);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 10vw;
+    padding: 8vmin 5vw;
+}
+
+.home-banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-banner-left div{
+    /* padding: 0.5vmin 0; */
+}
+
+.banner-left-description{
+    font-size: 2.5vmin;
+    color: rgba(0, 1, 53, 0.8);
+}
+
+.banner-left-title{
+    font-size: 5vmin;
+    font-weight: 700;
+}
+
+.banner-left-watchvideo{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-left-watchvideo-logo{
+    height: 5vmin;
+    width: 5vmin;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vmin;
+    background-color: rgb(99, 53, 201);
+    color: white;
+}
+
+.banner-left-watchvideo-msg{
+    color: rgb(99, 53, 201);
+    font-size: 3vmin;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-left: 3vmin;
+}
+
+.home-banner-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5vmin;
+    text-align: center;
+}
+
+.banner-right-section{
+    /* background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.banner-right-section div{
+    padding: 0.3vmin 0;
+}
+
+.banner-right-img{
+    font-size: 15vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .banner-right-img img{
+    height: 100%;
+} */
+
+.banner-right-title{
+    color: rgb(99, 53, 201);
+    font-size: 3vmin;
+    font-weight: 600;
+}
+
+.banner-right-description{
+    font-size: 2.2vmin;
+}
+
+
+.home-app{
+    margin-top: 5vmin;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding: 5vmin 5vw;
+    border-radius: 2vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(99, 53, 201);
+}
+
+.home-app-left{
+    width: 20vw;
+    padding: 0 5vmin;
+    /* position: absolute;
+    width: 298px;
+    height: 1530px;
+    left: 274px;
+    top: 1879px;
+    background: url(D:\Cheffy\MyWork\SpaceFront\metoospace\images\homepage1.png); */
+}
+
+.home-app-right{
+    padding: 0 5vmin;
+    color: white;
+}
+
+.app-right-title{
+    padding: 1vmin 0;
+    font-size: 5vmin;
+    font-weight: 700;
+}
+
+.app-right-description{
+    font-size: 2.2vmin;
+    padding: 1vmin 0;
+}
+
+.app-right-buttons{
+    padding: 2vmin 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.app-buttons-btn{
+    width: 12vw;
+    border: 1.5px solid white;
+    border-radius: 0.5vmin;
+    background-color: transparent;
+    color: white;
+    padding: 1vmin 1vmin;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2px;
+    cursor: pointer;
+}
+
+.app-right-btn-logo{
+    font-size: 4vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-right-btn-text{
+    text-align: left;
+}
+
+.app-btn-text-line1{
+    font-size: 2vmin;
+}
+
+.app-btn-text-line2 {
+    font-size: 3vmin;
+}
+
+.google{
+    margin-left: 5vmin;
+}
